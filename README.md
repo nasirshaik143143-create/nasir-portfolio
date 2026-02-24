@@ -96,3 +96,54 @@
 <script src="script.js"></script>
 </body>
 </html>
+body {
+    font-family: Arial;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    transition: 0.5s;
+}
+
+header {
+    background: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 40px;
+}
+
+.card {
+    border: 1px solid gray;
+    padding: 15px;
+    margin: 10px;
+}
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px;
+}
+
+.dark {
+    background: black;
+    color: white;
+}
+function toggleMode(){
+    document.body.classList.toggle("dark");
+}
